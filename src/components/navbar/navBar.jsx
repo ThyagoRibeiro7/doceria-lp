@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./nav-bar.css";
+import "./navBar.css";
 
 // images imports
 import logo from "../../assets/images/LogoDoceria.avif";
@@ -8,7 +8,7 @@ import DrippingTopping from "../../assets/images/CoberturaEscorrendo.avif"
 // compoenents import
 import { SideBar } from "../SideBar/sideBar";
 
-export default function NavBar() {
+export function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

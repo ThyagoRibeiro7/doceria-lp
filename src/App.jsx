@@ -1,4 +1,4 @@
-import { NavBar } from "./components/navbar/navBar.jsx";
+import { NavBar } from "./components/NavBar/navBar.jsx";
 import { Hero } from "./components/HeroSection/heroContent.jsx";
 import { ServicesSection } from "./components/ourservices/services.jsx";
 import { HighLights } from "./components/highLights/highLights.jsx";

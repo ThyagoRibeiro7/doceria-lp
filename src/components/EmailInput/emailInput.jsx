@@ -1,6 +1,6 @@
-import "./email-input.css";
+import "./emailInput.css";
 
-export default function EmailInput() {
+export function EmailInput() {
     return (
         <section className="email-input-section container">
             <h2>Inscreva-se para receber nossas novidades!</h2>

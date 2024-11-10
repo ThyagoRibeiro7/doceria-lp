@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import './sideBar.css';
 
 export function SideBar() {
-    const [sideBarOpen, setSideBarOpen] = useState(false);
 
     return (
         <aside className="side-bar">
