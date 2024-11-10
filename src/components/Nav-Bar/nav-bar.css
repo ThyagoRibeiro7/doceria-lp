@@ -1,0 +1,53 @@
+.nav-bar,
+.nav-bar .nav-options {
+    display: flex;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    padding: 2.5rem 6rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-bar > img {
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+    width: 100%;
+    z-index: -1;
+}
+
+.nav-bar > .logo {
+    width: 6.5rem;
+}
+
+.logo > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav-bar .nav-options {
+    gap: 5rem;
+}
+
+.nav-bar .nav-options > li > a {
+    color: var(--font-clr);
+    font-family: 'Akshar', sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    cursor: pointer;
+}
+
+.nav-bar button {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--font-clr);
+    z-index: 9999;
+}
