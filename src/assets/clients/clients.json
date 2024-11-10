@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "clientPhoto": "./images/Cliente1.avif",
+        "imgAltText": "Imagem do cliente 1",
+        "name": "Natália Gomes",
+        "occupation": "Dentista",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    },
+    {
+        "id": 2,
+        "clientPhoto": "./images/Cliente2.avif",
+        "imgAltText": "Imagem do cliente 2",
+        "name": "Pedro Almeida",
+        "occupation": "Engenheiro Civil",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    },
+    {
+        "id": 3,
+        "clientPhoto": "./images/Cliente3.avif",
+        "imgAltText": "Imagem do cliente 3",
+        "name": "Maria Silva",
+        "occupation": "Doutora em Medicina",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    },
+    {
+        "id": 4,
+        "clientPhoto": "./images/Cliente4.avif",
+        "imgAltText": "Imagem do cliente 4",
+        "name": "Maria Gomes",
+        "occupation": "Designer UI",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    },
+    {
+        "id": 5,
+        "clientPhoto": "./images/Cliente5.avif",
+        "imgAltText": "Imagem do cliente 5",
+        "name": "Roberta Magnum",
+        "occupation": "Nutricionista",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    },
+    {
+        "id": 6,
+        "clientPhoto": "./images/Cliente6.avif",
+        "imgAltText": "Imagem do cliente 6",
+        "name": "Joaquim Souza",
+        "occupation": "Jornalista",
+        "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus magna, dignissim ac orci et, fringilla feugiat sapien. Morbi quis tempor ipsum."
+    }
+]
