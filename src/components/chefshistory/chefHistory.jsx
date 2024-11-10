@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 // style imports
-import "./ChefHistory.css";
+import "./chefhistory.css";
 
 // image imports
 import ChefImage from "../../assets/images/ChefeApresentacao.avif";

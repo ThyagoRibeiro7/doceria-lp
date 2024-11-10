@@ -1,5 +1,5 @@
 // style import
-import './Footer.css';
+import './footer.css';
 
 // images imports
 import logo from "../../assets/images/LogoDoceria.avif";

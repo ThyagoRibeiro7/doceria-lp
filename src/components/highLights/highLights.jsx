@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 // styles import
-import "./HighLights.css";
+import "./highlights.css";
 
 // image imports
 import { HighLightImage } from "../shared/highLightImage";
