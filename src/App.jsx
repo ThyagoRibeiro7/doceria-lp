@@ -4,7 +4,7 @@ import { ServicesSection } from "./components/ourservices/services.jsx";
 import { HighLights } from "./components/highLights/highLights.jsx";
 import { ChefHistory } from "./components/chefshistory/chefHistory.jsx";
 import { EmailInput } from "./components/emailInput/email-Input.jsx";
-import { TestimonialsSection } from "./components/testimonials/testimonials-Section.js";
+import { TestimonialsSection } from "./components/testimonials/testimonials-Section.jsx";
 import { Footer } from "./components/footer/footer.jsx";
 
 export default function App() {
