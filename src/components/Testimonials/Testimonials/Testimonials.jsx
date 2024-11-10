@@ -7,7 +7,7 @@ import 'swiper/css';
 import './testimonials.css';
 
 // component import
-import { TestimonialCard } from "../../shared/Testimonial-Card";
+import { TestimonialCard } from "../../shared/testimonial-Card";
 
 import data from '../../../assets/clients/clients.json'
 

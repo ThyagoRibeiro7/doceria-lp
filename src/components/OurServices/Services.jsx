@@ -1,4 +1,4 @@
-import { ServiceCard } from "../shared/Service-Card";
+import { ServiceCard } from "../shared/service-Card";
 import './Services.css';
 import ImagemCaixa from '../../assets/images/ImagemCaixa.avif';
 import ImagemDonut from '../../assets/images/ImagemDonut.avif';

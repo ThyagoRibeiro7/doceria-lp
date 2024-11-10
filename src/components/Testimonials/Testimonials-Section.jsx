@@ -1,7 +1,7 @@
 // components import
 import "./testimonials-section.css";
 import { TestimonialHeader } from "./Testimonial-Header/testimonials-header";
-import { Testimonials } from "./Testimonials/Testimonials";
+import { Testimonials } from "./Testimonials/testimonials";
 
 // image imports
 import ImagemDonut from "../../assets/images/AbsoluteDonut.avif";
