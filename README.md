@@ -5,7 +5,7 @@ Este é um projeto de iniciativa própria, no qual construo desde o design UI, v
 
 <img align='center' height='500' title="Seções Landing Page" alt="Três imagens que representam cada seção da Landing Page 'Principal', 'Destaques' e 'Recomendações'." src="./src/assets/images/DLP Cover.png">
 
-# 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 <div align="center">
 
@@ -14,8 +14,8 @@ Este é um projeto de iniciativa própria, no qual construo desde o design UI, v
 
 </div>
 
+## Bibliotecas Utilizadas
 <ul>
-    <h3>Bibliotecas Utilizadas</h3>
     <li>
         💙 Slider, para construir o carrossel de imagens
     </li>
