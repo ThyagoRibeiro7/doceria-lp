@@ -1,0 +1,52 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Bagel+Fat+One&family=Borel&family=Damion&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* css variables */
+:root {
+    --main-clr: #FC7FB6;
+    --main-bg-clr: #FFCCE9;
+    --scn-bg-clr: #FFE7F4;
+    --third-bg-clr: #CFFFFB
+    --box-shadow-clr: #FF95B9;
+    --btn-clr: #B80257;
+    --font-clr: #FFFFFF;
+    --regular-fw: 400;
+}
+
+/* global reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+
+ul { list-style: none; }
+
+a { text-decoration: none; }
+
+body{
+    background-color: var(--scn-bg-clr);
+    text-wrap: balance;
+    color: var(--font-clr)
+}
+
+.container {
+    max-width: clamp(475px, 80vw, 1440px);
+    margin-inline: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* google icons styles */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
