@@ -14,6 +14,7 @@ Este é um projeto de iniciativa própria, no qual construo desde o design UI, v
 
 </div>
 
+
 ## ⚙ Bibliotecas Utilizadas
 <ul>
     <li>
