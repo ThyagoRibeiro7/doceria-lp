@@ -1,11 +1,11 @@
-import { NavBar } from "./components/Navbar/nav-Bar.jsx";
-import { Hero } from "./components/Herosection/heroContent.jsx";
-import { ServicesSection } from "./components/OurServices/services.jsx";
-import { HighLights } from "./components/HighLights/highLights.jsx";
-import { ChefHistory } from "./components/Chefshistory/chefHistory.jsx";
-import { EmailInput } from "./components/EmailInput/email-Input.jsx";
-import { TestimonialsSection } from "./components/Testimonials/testimonials-Section.jsx";
-import { Footer } from "./components/Footer/footer.jsx";
+import { NavBar } from "./components/navbar/nav-Bar.jsx";
+import { Hero } from "./components/herosection/heroContent.jsx";
+import { ServicesSection } from "./components/ourservices/services.jsx";
+import { HighLights } from "./components/highLights/highLights.jsx";
+import { ChefHistory } from "./components/chefshistory/chefHistory.jsx";
+import { EmailInput } from "./components/emailInput/email-Input.jsx";
+import { TestimonialsSection } from "./components/testimonials/testimonials-Section.js";
+import { Footer } from "./components/footer/footer.jsx";
 
 export default function App() {
   return (
