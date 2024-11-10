@@ -1,0 +1,41 @@
+.side-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30rem;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255,204,233,1) 0%, rgba(207,255,251,1) 100%);
+    border-radius: 2rem 0 0 2rem;
+    z-index: 999;
+}
+
+.side-bar .side-bar-top button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--font-clr);
+}
+
+.side-bar .side-bar-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10rem;
+    margin-right: 5rem;
+    padding: 1.5rem;
+}
+
+.side-bar .side-bar-options ul a{
+    color: var(--font-clr);
+    text-align: right;
+    font-family: 'Akshar', sans-serif;
+    font-size: 2rem;
+    font-weight: var(--regular-fw);
+    cursor: pointer;
+}
+
+.side-bar .side-bar-options ul li{
+    padding-right: 1rem;
+    margin-bottom: 2.5rem;
+    border-right: 2px solid #fff;
+}
