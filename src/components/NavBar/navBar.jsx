@@ -8,7 +8,7 @@ import DrippingTopping from "../../assets/images/CoberturaEscorrendo.avif"
 // compoenents import
 import { SideBar } from "../SideBar/sideBar";
 
-export function NavBar() {
+export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

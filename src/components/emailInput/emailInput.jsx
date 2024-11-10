@@ -1,7 +1,6 @@
 import "./email-input.css";
-import EmailBg from "../../assets/images/FundoEmail.avif";
 
-export function EmailInput() {
+export default function EmailInput() {
     return (
         <section className="email-input-section container">
             <h2>Inscreva-se para receber nossas novidades!</h2>
