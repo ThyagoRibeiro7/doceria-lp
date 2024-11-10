@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import "./HighLights.css";
 
 // image imports
-import { HighLightImage } from "../shared/highLight-Image";
+import { HighLightImage } from "../shared/highLightImage";
 import HighLightImage1 from "../../assets/images/ImagemDestaque1.avif";
 import HighLightImage2 from "../../assets/images/ImagemDestaque2.avif";
 import HighLightImage3 from "../../assets/images/ImagemDestaque3.jpg";

@@ -1,9 +1,9 @@
-import { NavBar } from "./components/navbar/nav-Bar.jsx";
+import { NavBar } from "./components/navbar/navBar.jsx";
 import { Hero } from "./components/herosection/heroContent.jsx";
 import { ServicesSection } from "./components/ourservices/services.jsx";
 import { HighLights } from "./components/highLights/highLights.jsx";
 import { ChefHistory } from "./components/chefshistory/chefHistory.jsx";
-import { EmailInput } from "./components/emailInput/email-Input.jsx";
+import { EmailInput } from "./components/emailInput/emailInput.jsx";
 import { TestimonialsSection } from "./components/testimonials/testimonials-Section.jsx";
 import { Footer } from "./components/footer/footer.jsx";
 
