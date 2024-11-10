@@ -1,0 +1,78 @@
+.email-input-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 5rem 1.5rem;
+    margin-bottom: 16rem;
+    position: relative;
+}
+
+.email-input-section:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/images/FundoEmail.avif);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    border-radius: 2rem;
+    z-index: -1;
+}
+
+.email-input-section h2 {
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: clamp(3rem, 3vw, 4rem);
+    font-weight: var(--regular-fw);
+    background: #FF0077;
+    background: linear-gradient(to left, #FF0077 0%, #CFFFFB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.email-input-section .email-input {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.email-input input {
+    color: var(--font-clr);
+    padding: 1.2rem;
+    width: clamp(30rem, 30vw, 50rem);
+    background-color: transparent;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+}
+
+.email-input input:focus-visible {
+    outline: none;
+}
+
+.email-input .send-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    position: absolute;
+    right: 1rem;
+    background-color: var(--btn-clr);
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.email-input button {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: var(--font-clr);
+    cursor: pointer;
+}
