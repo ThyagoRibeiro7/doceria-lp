@@ -14,7 +14,7 @@ Este é um projeto de iniciativa própria, no qual construo desde o design UI, v
 
 </div>
 
-## Bibliotecas Utilizadas
+## ⚙ Bibliotecas Utilizadas
 <ul>
     <li>
         💙 Slider, para construir o carrossel de imagens
