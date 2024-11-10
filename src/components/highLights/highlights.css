@@ -1,0 +1,53 @@
+.highlights-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    margin-bottom: 16rem;
+    gap: 4rem;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, rgba(252,127,182,1) 0%, rgba(255,204,233,1) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.300);
+}
+
+.highlights-section .highlight-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.highlights-section .highlight-content h2 {
+    font-family: "Bagel Fat One", sans-serif;
+    font-size: clamp(3rem, 4vw, 6rem);
+    font-weight: var(--regular-fw);
+}
+
+.highlight-content .highlight-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: clamp(2rem, 3vw, 4rem);
+    grid-row-gap: 1.2rem;
+}
+
+.highlight-images .highlight-image {
+    height: 22rem;
+}
+
+.highlight-images .highlight-image img:nth-child() {
+    height: 45rem;
+}
+
+.highlight-images .highlight-image:nth-child(3) {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.highlights-section .highlight-images img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+}

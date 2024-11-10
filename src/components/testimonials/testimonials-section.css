@@ -1,0 +1,36 @@
+.testimonials-section,
+.testimonials .testimonial-header,
+.testimonial-header .client-info
+{
+    display: flex;
+}
+
+.testimonials-section {
+    flex-direction: column;
+    margin-bottom: 25rem;
+    position: relative;
+}
+
+.testimonials-section .testimonials-header {
+    font-family: 'Damion', sans-serif;
+    color: #CF0061;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.testimonials-section > img {
+    position: absolute;
+    width: 20rem;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.testimonials-section img:nth-child(1) {
+    top: -4.5rem;
+    left: -2.5rem;
+}
+
+.testimonials-section img:nth-child(4){
+    top: -3.5rem;
+    right: 0;
+}
