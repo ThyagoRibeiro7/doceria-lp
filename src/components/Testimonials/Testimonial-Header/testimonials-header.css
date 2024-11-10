@@ -1,0 +1,9 @@
+.testimonials-section .testimonials-header h2 {
+    text-shadow: 0px 5px 5px rgba(255, 149, 185, 1);
+    line-height: 1;
+    font-size: clamp(4.5rem, 4vw, 6rem);
+}
+
+.testimonials-section .testimonials-header p {
+    font-size: clamp(2rem, 2vw, 3rem);
+}

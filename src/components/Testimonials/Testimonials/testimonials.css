@@ -1,0 +1,42 @@
+.testimonials .testimonial-header {
+    font-family: 'Damion', sans-serif;
+    font-weight: var(--regular-fw);
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.testimonials .testimonial-header h3 {
+    font-size: clamp(2rem, 2vw, 2.5rem);
+    color: var(--main-clr);
+}
+
+.testimonials .testimonial-header p {
+    font-size: 1.8rem;
+}
+
+.testimonials .testimonial-header img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-header .client-info {
+    flex-direction: column;
+}
+
+.testimonials .testimonial-card {
+    background: linear-gradient(360deg, rgba(255,204,233,1) 0%, rgba(207,255,251,1) 100%);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    width: 30rem;
+}
+
+.testimonials .testimonial-card p {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.3rem;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    color: var(--main-clr);
+    font-size: 2rem !important;
+}
