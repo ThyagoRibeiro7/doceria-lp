@@ -18,10 +18,13 @@ Este é um projeto de iniciativa própria, no qual construo desde o design UI, v
 ## ⚙ Bibliotecas Utilizadas
 <ul>
     <li>
-        💙 Slider, para construir o carrossel de imagens
+        💙 Slider, para construir o carrossel de imagens.
     </li>
     <li>
-        🔹 Aos Animations, para a implementação de animações com base no scroll do usuário 
+        🔹 Aos Animations, para a implementação de animações com base no scroll do usuário.
+    </li>
+    <li>
+        🚀 Vite, para o desenvolvimento do projeto.
     </li>
 </ul>
 
