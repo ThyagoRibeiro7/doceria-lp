@@ -1,0 +1,143 @@
+@media (max-width: 1440px) {
+    .services-section .services-cards {
+        gap: 1rem;
+    }
+}
+  
+@media (max-width: 1280px) {
+    .service-card .service p {
+        line-height: 1;
+    }
+
+    .chefs-history{
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 1060px) {
+    .services-section .services-cards {
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .services-cards .service-card {
+        text-align: left;
+        max-width: 100%;
+        width: 70%;
+    }
+
+    .highlights-section .highlight-content {
+        align-items: center;
+    }
+
+    .highlight-content .highlight-images {
+        grid-template-columns: 1fr;
+    }
+
+    .highlight-content .highlight-image:nth-child(1) {
+        height: 100%;
+    }
+
+    .highlight-images .highlight-image:nth-child(3){
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .chefs-history {
+        flex-direction: column;
+    }
+
+    .chefs-history .chef-history p{
+        margin-bottom: 1.7rem;
+    }
+
+    .email-input-section h2 {
+        max-width: 20ch;
+        text-align: center;
+    }
+
+    .testimonials-section {
+        margin-bottom: 15rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-section .hero-text > h2:not(.chefs-testimonial, .chef-testimonial) {
+        max-width: 20ch;
+        text-align: center;
+    }
+
+    .hero-section .hero-text {
+        align-items: center;
+    }
+
+    .hero-section .hero-image {
+        display: none;
+    }
+
+    .services-section {
+        margin-top: -10rem;
+    }
+
+    .footer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .footer-content {
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+  
+@media (max-width: 768px) {
+    .nav-bar > img {
+        display: none;
+    }
+
+    .nav-bar .nav-options {
+        display: none;
+    }
+
+    .nav-bar button {
+        display: block;
+    }
+}
+  
+@media (max-width: 650px) {
+    .hero-section .chefs-testimonial p {
+        max-width: 20ch;
+    }
+
+    .hero-section .cta-btns {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer .footer-nav{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+  
+@media (max-width: 485px) {
+    .container{
+        margin-inline: 0.5rem;
+    }
+
+    .services-cards .service-card {
+        width: 100%;
+    }
+
+    .chefs-history img {
+        width: 30rem;
+        border-radius: 0.5rem;
+        box-shadow: 10px 10px 0px 2.5px var(--main-clr);
+    }
+
+    .testimonials-section > img {
+        display: none;
+    }
+}
+  
